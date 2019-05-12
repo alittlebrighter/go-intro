@@ -1,0 +1,9 @@
+github.com/cosmos72/gomacro v0.0.0-20190511130831-4d99a171058d h1:hl388fsmjobyfyjDS4RGEEJGb1WYJcLsCaUKwX10J3E=
+github.com/cosmos72/gomacro v0.0.0-20190511130831-4d99a171058d/go.mod h1:KJA2tG1LPV/U9zq3I4bjlzGMkTCezSMeD5dSgL5AWa4=
+github.com/mattn/go-runewidth v0.0.3/go.mod h1:LwmH8dsx7+W8Uxz3IHJYH5QSwggIsqBzpuz5H//U1FU=
+github.com/mattn/go-runewidth v0.0.4 h1:2BvfKmzob6Bmd4YsL0zygOqfdFnK7GR4QL06Do4/p7Y=
+github.com/mattn/go-runewidth v0.0.4/go.mod h1:LwmH8dsx7+W8Uxz3IHJYH5QSwggIsqBzpuz5H//U1FU=
+github.com/peterh/liner v1.1.0 h1:f+aAedNJA6uk7+6rXsYBnhdo4Xux7ESLe+kcuVUF5os=
+github.com/peterh/liner v1.1.0/go.mod h1:CRroGNssyjTd/qIG2FyxByd2S8JEAZXBl4qUrZf8GS0=
+golang.org/x/sys v0.0.0-20190429094411-2cc0cad0ac78/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20190509141414-a5b02f93d862/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
