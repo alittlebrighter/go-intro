@@ -18,7 +18,9 @@ type server struct {
 	inFlight map[uint]func(Msg)
 }
 
-func (s *server) StartServer(serveAt string, input chan Msg, output <-chan Msg) {
+func StartServer(serveAt string, input chan Msg, output <-chan Msg) {
+	s := new(server)
+
 	s.input = input
 	s.output = output
 
@@ -52,8 +54,8 @@ func (s *server) calculate(w http.ResponseWriter, r *http.Request) {
 	wg.Add(1)
 	s.inFlight[msg.Id()] = func(msg Msg) {
 		body, _ := json.Marshal(msg)
-		w.Write(body)
 		w.WriteHeader(http.StatusOK)
+		w.Write(body)
 		wg.Done()
 	}
 
