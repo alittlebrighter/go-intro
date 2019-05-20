@@ -62,6 +62,7 @@ func (s *server) calculate(w http.ResponseWriter, r *http.Request) {
 	s.input <- msg
 
 	wg.Wait()
+	delete(s.inFlight, msg.Id())
 }
 
 func (s *server) handleOutput() {
